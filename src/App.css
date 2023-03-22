@@ -1,7 +1,22 @@
 .App {
   text-align: center;
 }
-
+.container
+{
+  padding:20px;
+  border:1px solid red;
+  margin-top: 100px;
+  font-size:26px;
+  color:blue;
+}
+h2
+{
+  background-color: lightcoral;
+  text-align: center;
+  color:black;
+  margin-left: 100px;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
