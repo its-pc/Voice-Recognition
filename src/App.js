@@ -1,19 +1,15 @@
 import React from 'react'
-import { useState } from 'react'
-import { useEffect } from 'react'
-import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition'
 import './App.css'
-import Voicecomponent from './component/Voicecomponent';
+import Firstcomponent from './component/Firstcomponent'
+import Voicecomponent from './component/Voicecomponent'
+
 const App = () => {
   return (
-    <>
-    
-    <Voicecomponent/> 
-    <br>
-    </br>
-    <button className='btn btn-success'>processing</button>
-    
-    </>
+    <div className="App">
+      <Firstcomponent />
+      <Voicecomponent />
+    </div>
   )
 }
+
 export default App
